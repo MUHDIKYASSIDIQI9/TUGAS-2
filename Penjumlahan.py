@@ -3,4 +3,3 @@ def jumlahkan_dua_bilangan():
   b=float(input("masukan bilangan kedua")) 
   print("hasil penjumlahan:", hasil) 
 
-jumlahkan_dua_bilangan() 
