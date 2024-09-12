@@ -1,14 +1,11 @@
-import math 
+import math
 
-def hitung_luas_lingkaran() :
-  r = float(input("masukan jari-jari lingkaran :")) 
-  luas math.pi***
+def luas_lingkaran(r):
+    return math.pi * r ** 2
 
-def hitung luas_lingkaran():
 
 r = float(input("Masukkan jari-jari lingkaran: "))
 
-luas math.pi *r ** 2
-print(f"Luas lingkaran: {luas:.2f}") 
+luas = luas_lingkaran(r)
 
-hitung_luas_lingkaran() 
+print(f"Luas lingkaran dengan jari-jari {r} adalah {luas:.2f}")
